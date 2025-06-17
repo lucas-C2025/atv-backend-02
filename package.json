@@ -1,0 +1,23 @@
+{
+  "name": "atv-backend-02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas-C2025/atv-backend-02.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucas-C2025/atv-backend-02/issues"
+  },
+  "homepage": "https://github.com/lucas-C2025/atv-backend-02#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

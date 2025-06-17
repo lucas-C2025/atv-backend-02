@@ -1,0 +1,27 @@
+### Texto - lowercase
+POST http://localhost:3000/texto/lowercase
+Content-Type: application/json
+
+{
+  "entrada": "Lorem Ipsum"
+}
+
+### Texto - uppercase
+POST http://localhost:3000/texto/uppercase
+Content-Type: application/json
+
+{
+  "entrada": "Lorem Ipsum"
+}
+
+### Número - minimum
+GET http://localhost:3000/numero/minimum?entrada=10,1,100
+
+### Número - maximum
+GET http://localhost:3000/numero/maximum?entrada=10,1,100
+
+### Número - ação inválida
+GET http://localhost:3000/numero/media?entrada=10,1,100
+
+### Número - entrada ausente
+GET http://localhost:3000/numero/minimum
